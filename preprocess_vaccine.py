@@ -8,7 +8,7 @@ data = data.groupby('data_somministrazione').sum()
 repeated_values = data.prima_dose.values[-22:]
 first_forecast = max(data.index) + pd.Timedelta(1,'day')
 last_repeated = max(data.index) + pd.Timedelta(22,'day') 
-new_max = max(data.index) + pd.Timedelta(30,'days')
+new_max = max(data.index) + pd.Timedelta(31,'days')
 new_index = pd.date_range('2020-02-24',new_max)
 
 data = data.reindex(new_index,columns=['prima_dose','seconda_dose'],fill_value=0)
