@@ -45,7 +45,7 @@ jobs:
             git config --global user.name 'GitHub Actions'
             git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add .
-            git commit -am "Add new vaccines report (${report_date})"
+            git commit -am "Add new iss report (${report_date})"
             git push
           else
             echo "no changes to commit"
