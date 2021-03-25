@@ -2,6 +2,7 @@
 
 ![get_data_from_dpc](https://github.com/giovanniardenghi/dpc-covid-data/workflows/get_data_from_dpc/badge.svg)
 ![get_vaccine_data](https://github.com/giovanniardenghi/dpc-covid-data/workflows/get_vaccine_data/badge.svg)
+![get_iss_series](https://github.com/giovanniardenghi/dpc-covid-data/workflows/get_iss_series/badge.svg)
 [![GitHub commit](https://img.shields.io/github/last-commit/giovanniardenghi/dpc-covid-data)](https://github.com/giovanniardenghi/dpc-covid-data/commits/main)
 
 Serie storica dei dati della sorveglianza integrata COVID-19 in Italia. I dati sono disponibili nel folder [`data`](data) di questo repository.
