@@ -22,7 +22,23 @@ jobs:
       # Get data
       - name: Get data
         run: ./get_data.sh
+      
+      # Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
 
+      # Install dependencies from requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      # Parse them all
+      - name: Preprocess data
+        run: |
+          python preprocess_data.py
+          
       # Commit & Push
       - name: Commit a new report (if necessary)
         run: |
