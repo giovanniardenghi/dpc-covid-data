@@ -11,6 +11,7 @@ first_forecast = max(data.index) + pd.Timedelta(1,'day')
 last_repeated = max(data.index) + pd.Timedelta(22,'day') 
 new_max = max(data.index) + pd.Timedelta(35,'days')
 new_index = pd.date_range('2020-02-24',new_max)
+data.iloc[0,1:]=0
 
 data = data.reindex(new_index,columns=['prima_dose','seconda_dose']).ffill()
 
