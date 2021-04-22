@@ -14,6 +14,6 @@ data_Italia = data_Italia.reindex(new_index,columns=['prima_dose','seconda_dose'
 regions = [x for _, x in data.groupby(['data_somministrazione','area'])]
 for x in regions:
     data_reg = x.reindex(new_index,columns=['prima_dose','seconda_dose']).ffill()
-    x.to_csv('data/vaccini_regioni/'+x.area[0]+'.csv',index=None)
+    x.to_csv('data/vaccini_regioni/'+x.area.values[0]+'.csv',index=None)
     
 data_Italia.to_csv('data/vaccines.csv',index_label='data')
