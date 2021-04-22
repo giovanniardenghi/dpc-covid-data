@@ -1,0 +1,19 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,UMB,30-39,1,0,0,0,0,0,0,0,0,0,0,1,1,0,ITI,ITI2,10,Umbria
+2021-04-21,Moderna,UMB,50-59,2,1,0,0,0,0,0,0,0,0,0,3,3,0,ITI,ITI2,10,Umbria
+2021-04-21,Moderna,UMB,60-69,3,3,0,0,0,6,0,0,0,0,0,0,6,0,ITI,ITI2,10,Umbria
+2021-04-21,Moderna,UMB,70-79,2,6,0,0,0,0,8,0,0,0,0,0,7,1,ITI,ITI2,10,Umbria
+2021-04-21,Moderna,UMB,80-89,16,38,0,0,0,0,0,54,0,0,0,0,7,47,ITI,ITI2,10,Umbria
+2021-04-21,Moderna,UMB,90+,11,30,0,0,0,0,0,41,0,0,0,0,4,37,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,16-19,0,2,0,0,0,0,0,0,0,0,2,0,2,0,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,20-29,20,36,40,0,0,0,0,0,0,1,15,0,26,30,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,30-39,23,41,35,1,1,0,0,0,0,1,26,0,33,31,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,40-49,41,52,35,1,0,0,0,0,2,1,54,0,40,53,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,50-59,84,108,35,3,0,0,0,0,3,1,150,0,94,98,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,60-69,154,116,23,4,0,3,0,0,0,2,238,0,124,146,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,70-79,215,133,11,0,0,0,4,0,0,0,333,0,188,160,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,80-89,632,840,0,0,0,0,0,1459,0,0,13,0,456,1016,ITI,ITI2,10,Umbria
+2021-04-21,Pfizer/BioNTech,UMB,90+,127,202,0,0,0,0,0,329,0,0,0,0,106,223,ITI,ITI2,10,Umbria
+2021-04-21,Vaxzevria (AstraZeneca),UMB,60-69,1,5,0,0,0,5,0,0,0,0,1,0,6,0,ITI,ITI2,10,Umbria
+2021-04-21,Vaxzevria (AstraZeneca),UMB,70-79,146,158,0,0,0,0,304,0,0,0,0,0,304,0,ITI,ITI2,10,Umbria
+2021-04-21,Vaxzevria (AstraZeneca),UMB,80-89,1,1,0,0,0,0,0,2,0,0,0,0,2,0,ITI,ITI2,10,Umbria

@@ -1,0 +1,27 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,EMR,16-19,2,0,1,0,0,0,0,0,0,0,1,0,1,1,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,20-29,3,8,10,1,0,0,0,0,0,0,0,0,11,0,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,30-39,5,12,10,2,0,0,0,0,0,0,5,0,15,2,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,40-49,4,10,9,0,0,0,0,0,0,0,4,1,12,2,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,50-59,4,15,9,3,0,0,0,0,0,0,6,1,17,2,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,60-69,9,23,7,1,0,13,0,0,0,1,10,0,23,9,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,70-79,438,528,1,0,0,0,855,0,0,0,109,1,923,43,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,80-89,73,179,0,0,2,0,0,225,0,0,25,0,132,120,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Moderna,EMR,90+,57,188,0,0,0,0,0,224,0,0,21,0,148,97,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,16-19,22,21,1,0,0,0,0,0,0,0,41,1,27,16,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,20-29,55,74,13,6,0,0,0,0,0,1,109,0,90,39,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,30-39,92,108,25,7,0,0,0,0,1,1,166,0,145,55,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,40-49,237,256,32,5,2,0,0,0,1,3,446,4,363,130,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,50-59,410,421,43,18,2,0,0,0,2,3,754,9,548,283,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,60-69,873,779,27,11,1,107,0,0,1,1,1504,0,975,677,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,70-79,1405,1350,6,4,5,0,550,0,0,1,2189,0,1519,1236,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,80-89,1820,2351,0,2,8,0,0,3946,0,0,215,0,466,3705,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Pfizer/BioNTech,EMR,90+,89,181,0,0,5,0,0,248,0,0,17,0,66,204,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,20-29,1,3,0,0,0,0,0,0,0,1,3,0,4,0,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,30-39,4,2,0,0,0,0,0,0,0,2,4,0,4,2,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,40-49,2,6,0,0,0,0,0,0,0,1,7,0,8,0,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,50-59,7,11,1,1,0,0,0,0,0,3,13,0,18,0,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,60-69,40,78,0,1,0,42,0,0,0,10,65,0,116,2,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,70-79,1976,2303,1,0,0,0,4246,0,0,0,31,1,4276,3,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,80-89,9,19,0,0,0,0,0,23,0,0,5,0,28,0,ITH,ITH5,8,Emilia-Romagna
+2021-04-21,Vaxzevria (AstraZeneca),EMR,90+,1,4,0,0,0,0,0,5,0,0,0,0,5,0,ITH,ITH5,8,Emilia-Romagna

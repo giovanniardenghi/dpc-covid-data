@@ -1,0 +1,26 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,LAZ,20-29,0,1,1,0,0,0,0,0,0,0,0,0,1,0,ITI,ITI4,12,Lazio
+2021-04-21,Moderna,LAZ,30-39,5,7,4,0,0,0,0,0,0,0,8,0,7,5,ITI,ITI4,12,Lazio
+2021-04-21,Moderna,LAZ,40-49,8,6,0,0,0,0,0,0,1,0,11,2,10,4,ITI,ITI4,12,Lazio
+2021-04-21,Moderna,LAZ,50-59,24,11,1,0,0,0,0,0,1,0,31,2,25,10,ITI,ITI4,12,Lazio
+2021-04-21,Moderna,LAZ,60-69,37,43,0,0,0,67,0,0,0,0,13,0,71,9,ITI,ITI4,12,Lazio
+2021-04-21,Moderna,LAZ,70-79,522,725,0,0,0,0,1242,0,0,0,5,0,895,352,ITI,ITI4,12,Lazio
+2021-04-21,Moderna,LAZ,80-89,277,413,0,0,0,0,0,690,0,0,0,0,114,576,ITI,ITI4,12,Lazio
+2021-04-21,Moderna,LAZ,90+,50,82,0,0,0,0,0,132,0,0,0,0,28,104,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,16-19,11,13,0,0,0,0,0,0,0,0,20,4,9,15,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,20-29,136,141,99,6,1,0,0,0,0,2,133,36,136,141,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,30-39,162,221,103,11,7,0,0,0,0,9,213,40,185,198,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,40-49,321,404,96,27,9,0,0,0,3,13,488,89,332,393,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,50-59,633,766,125,36,3,0,0,0,13,15,1007,200,709,690,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,60-69,1719,1785,58,17,3,2328,0,0,0,11,1079,8,2248,1256,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,70-79,4033,4804,7,0,45,0,7849,0,0,1,925,10,4682,4155,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,80-89,2453,3598,0,0,32,0,0,5875,1,0,139,4,2955,3096,ITI,ITI4,12,Lazio
+2021-04-21,Pfizer/BioNTech,LAZ,90+,376,871,0,0,35,0,0,1169,0,0,42,1,525,722,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,16-19,1,0,0,0,0,0,0,0,0,0,1,0,1,0,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,20-29,27,26,45,0,0,0,0,0,3,1,3,1,53,0,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,30-39,33,35,50,2,0,0,0,0,3,4,6,3,68,0,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,40-49,29,42,35,4,0,0,0,0,7,3,18,4,71,0,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,50-59,45,40,24,3,0,0,0,0,7,6,18,27,85,0,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,60-69,2710,2327,6,3,0,5010,0,0,6,1,11,0,5037,0,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,70-79,734,743,0,1,0,0,1475,0,0,0,1,0,1477,0,ITI,ITI4,12,Lazio
+2021-04-21,Vaxzevria (AstraZeneca),LAZ,80-89,2,2,0,0,0,0,0,4,0,0,0,0,4,0,ITI,ITI4,12,Lazio

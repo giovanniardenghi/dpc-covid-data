@@ -1,0 +1,21 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,PAB,20-29,5,8,1,1,0,0,0,0,0,0,11,0,0,13,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Moderna,PAB,30-39,9,6,1,1,0,0,0,0,0,0,13,0,0,15,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Moderna,PAB,40-49,13,9,2,0,1,0,0,0,1,0,18,0,3,19,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Moderna,PAB,50-59,22,17,1,1,0,0,0,0,2,0,31,4,0,39,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Moderna,PAB,60-69,29,22,2,2,0,6,0,0,0,0,41,0,4,47,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Moderna,PAB,70-79,39,41,0,0,0,0,40,0,0,0,40,0,2,78,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Moderna,PAB,80-89,6,4,0,0,0,0,0,7,0,0,3,0,0,10,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Moderna,PAB,90+,0,1,0,0,0,0,0,0,0,0,1,0,0,1,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,16-19,1,1,0,0,0,0,0,0,0,0,1,1,0,2,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,20-29,20,17,16,0,0,0,0,0,6,1,14,0,11,26,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,30-39,18,23,15,1,0,0,0,0,0,2,22,1,15,26,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,40-49,23,41,27,3,0,0,0,0,0,1,33,0,32,32,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,50-59,52,77,37,3,0,0,0,0,3,4,79,3,38,91,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,60-69,767,790,10,0,0,1423,0,0,5,3,116,0,1432,125,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,70-79,231,263,0,0,1,0,388,0,0,0,105,0,241,253,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,80-89,34,43,0,0,0,0,0,69,0,0,8,0,16,61,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Pfizer/BioNTech,PAB,90+,1,8,0,0,0,0,0,9,0,0,0,0,2,7,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Vaxzevria (AstraZeneca),PAB,60-69,166,132,0,0,0,297,0,0,0,0,1,0,298,0,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Vaxzevria (AstraZeneca),PAB,70-79,28,34,0,0,0,0,62,0,0,0,0,0,62,0,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen
+2021-04-21,Vaxzevria (AstraZeneca),PAB,80-89,0,3,0,0,0,0,0,3,0,0,0,0,3,0,ITH,ITH1,4,Provincia Autonoma Bolzano / Bozen

@@ -1,0 +1,26 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,MAR,16-19,0,1,0,0,1,0,0,0,0,0,0,0,1,0,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,20-29,1,3,0,0,3,0,0,0,0,0,1,0,3,1,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,30-39,7,4,4,1,0,0,0,0,1,1,3,1,5,6,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,40-49,4,5,2,0,1,0,0,0,3,0,1,2,3,6,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,50-59,18,14,3,1,0,0,0,0,16,1,6,5,6,26,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,60-69,45,57,1,0,1,85,0,0,3,2,10,0,90,12,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,70-79,45,57,0,0,1,0,74,0,0,0,27,0,86,16,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,80-89,42,85,0,0,5,0,0,35,0,1,86,0,24,103,ITI,ITI3,11,Marche
+2021-04-21,Moderna,MAR,90+,17,71,0,0,2,0,0,23,0,0,63,0,16,72,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,16-19,7,5,1,1,0,0,0,0,0,0,9,1,11,1,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,20-29,89,75,44,8,8,0,0,0,0,2,78,24,147,17,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,30-39,118,137,60,18,4,0,0,0,2,6,133,32,218,37,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,40-49,180,196,48,28,2,0,0,0,1,12,258,27,300,76,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,50-59,298,318,60,25,0,0,0,0,5,19,484,23,482,134,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,60-69,1024,1172,38,14,0,1286,0,0,2,32,819,5,1996,200,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,70-79,1305,1402,7,1,3,0,2148,0,6,1,539,2,2503,204,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,80-89,210,359,0,0,10,0,0,381,0,0,178,0,332,237,ITI,ITI3,11,Marche
+2021-04-21,Pfizer/BioNTech,MAR,90+,38,119,0,0,5,0,0,79,0,0,73,0,121,36,ITI,ITI3,11,Marche
+2021-04-21,Vaxzevria (AstraZeneca),MAR,30-39,3,2,0,2,0,0,0,0,0,0,1,2,5,0,ITI,ITI3,11,Marche
+2021-04-21,Vaxzevria (AstraZeneca),MAR,40-49,9,1,0,2,0,0,0,0,0,0,8,0,10,0,ITI,ITI3,11,Marche
+2021-04-21,Vaxzevria (AstraZeneca),MAR,50-59,15,11,0,5,0,0,0,0,0,0,14,7,26,0,ITI,ITI3,11,Marche
+2021-04-21,Vaxzevria (AstraZeneca),MAR,60-69,429,493,4,5,0,879,0,0,1,4,29,0,921,1,ITI,ITI3,11,Marche
+2021-04-21,Vaxzevria (AstraZeneca),MAR,70-79,959,1109,0,0,0,0,2050,0,3,0,15,0,2068,0,ITI,ITI3,11,Marche
+2021-04-21,Vaxzevria (AstraZeneca),MAR,80-89,13,17,0,0,0,0,0,27,0,0,3,0,30,0,ITI,ITI3,11,Marche
+2021-04-21,Vaxzevria (AstraZeneca),MAR,90+,1,5,0,0,0,0,0,5,0,0,1,0,5,1,ITI,ITI3,11,Marche

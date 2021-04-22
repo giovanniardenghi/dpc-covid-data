@@ -1,0 +1,21 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,BAS,16-19,1,0,0,0,0,0,0,0,0,0,1,0,1,0,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,20-29,7,5,0,1,0,0,0,0,0,0,11,0,12,0,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,30-39,6,8,0,0,0,0,0,0,0,3,11,0,11,3,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,40-49,22,20,0,0,0,0,0,0,4,4,32,2,35,7,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,50-59,47,43,0,1,0,0,0,0,2,5,79,3,83,7,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,60-69,91,75,0,0,0,5,0,0,0,8,153,0,154,12,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,70-79,94,77,0,0,0,0,10,0,0,0,161,0,170,1,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,80-89,3,4,0,0,0,0,0,4,0,0,3,0,6,1,ITF,ITF5,17,Basilicata
+2021-04-21,Moderna,BAS,90+,2,12,0,0,0,0,0,10,0,0,4,0,9,5,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,16-19,6,1,0,0,0,0,0,0,0,0,6,1,6,1,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,20-29,38,28,6,1,0,0,0,0,1,0,56,2,58,8,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,30-39,45,37,8,1,0,0,0,0,2,3,67,1,67,15,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,40-49,65,81,2,0,0,0,0,0,1,11,125,7,119,27,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,50-59,120,143,4,1,0,0,0,0,3,18,235,2,226,37,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,60-69,239,241,0,0,0,13,0,0,1,6,459,1,436,44,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,70-79,281,268,0,0,0,0,37,0,0,4,505,3,519,30,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,80-89,504,684,0,0,0,0,0,1175,1,1,11,0,30,1158,ITF,ITF5,17,Basilicata
+2021-04-21,Pfizer/BioNTech,BAS,90+,102,202,0,0,0,0,0,303,0,0,1,0,5,299,ITF,ITF5,17,Basilicata
+2021-04-21,Vaxzevria (AstraZeneca),BAS,60-69,16,19,0,0,0,25,0,0,0,0,10,0,35,0,ITF,ITF5,17,Basilicata
+2021-04-21,Vaxzevria (AstraZeneca),BAS,70-79,45,40,0,1,0,0,60,0,0,0,24,0,85,0,ITF,ITF5,17,Basilicata

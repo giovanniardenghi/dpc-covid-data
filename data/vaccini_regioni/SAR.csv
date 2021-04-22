@@ -1,0 +1,22 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,SAR,20-29,1,0,0,0,1,0,0,0,0,0,0,0,1,0,ITG,ITG2,20,Sardegna
+2021-04-21,Moderna,SAR,40-49,1,1,0,0,0,0,0,0,0,1,1,0,2,0,ITG,ITG2,20,Sardegna
+2021-04-21,Moderna,SAR,50-59,0,2,0,1,0,0,0,0,0,0,1,0,1,1,ITG,ITG2,20,Sardegna
+2021-04-21,Moderna,SAR,60-69,1,2,0,0,0,0,0,0,0,2,1,0,1,2,ITG,ITG2,20,Sardegna
+2021-04-21,Moderna,SAR,70-79,2,3,0,0,0,0,2,0,0,0,3,0,3,2,ITG,ITG2,20,Sardegna
+2021-04-21,Moderna,SAR,80-89,293,380,0,0,0,0,0,666,0,0,3,4,128,545,ITG,ITG2,20,Sardegna
+2021-04-21,Moderna,SAR,90+,21,46,0,0,0,0,0,67,0,0,0,0,23,44,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,16-19,4,5,0,0,0,0,0,0,0,0,9,0,6,3,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,20-29,40,45,7,3,1,0,0,0,0,2,67,5,45,40,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,30-39,59,98,30,12,1,0,0,0,3,3,99,9,65,92,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,40-49,117,174,33,18,7,0,0,0,1,12,208,12,117,174,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,50-59,199,271,48,14,3,0,0,0,3,17,352,33,226,244,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,60-69,450,408,17,7,14,128,0,0,0,3,689,0,507,351,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,70-79,640,539,8,1,13,0,443,0,0,0,699,15,466,713,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,80-89,1271,1624,0,0,30,0,0,2756,0,0,83,26,613,2282,ITG,ITG2,20,Sardegna
+2021-04-21,Pfizer/BioNTech,SAR,90+,159,327,0,0,27,0,0,448,0,0,8,3,125,361,ITG,ITG2,20,Sardegna
+2021-04-21,Vaxzevria (AstraZeneca),SAR,40-49,2,0,0,0,0,0,0,0,0,0,1,1,2,0,ITG,ITG2,20,Sardegna
+2021-04-21,Vaxzevria (AstraZeneca),SAR,50-59,3,2,1,0,0,0,0,0,0,0,2,2,5,0,ITG,ITG2,20,Sardegna
+2021-04-21,Vaxzevria (AstraZeneca),SAR,60-69,1271,1328,0,1,0,2576,0,0,0,0,22,0,2593,6,ITG,ITG2,20,Sardegna
+2021-04-21,Vaxzevria (AstraZeneca),SAR,70-79,709,770,0,1,0,0,1476,0,0,0,1,1,1478,1,ITG,ITG2,20,Sardegna
+2021-04-21,Vaxzevria (AstraZeneca),SAR,80-89,1,4,0,0,0,0,0,5,0,0,0,0,2,3,ITG,ITG2,20,Sardegna

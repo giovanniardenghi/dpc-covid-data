@@ -1,0 +1,15 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,VDA,40-49,0,2,0,0,0,0,0,0,0,0,0,2,1,1,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Moderna,VDA,60-69,1,2,0,0,0,3,0,0,0,0,0,0,0,3,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Moderna,VDA,70-79,1,4,0,0,0,0,5,0,0,0,0,0,0,5,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Moderna,VDA,80-89,6,12,0,0,0,0,0,18,0,0,0,0,4,14,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Moderna,VDA,90+,5,9,0,0,0,0,0,14,0,0,0,0,5,9,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,16-19,13,11,1,0,0,0,0,0,0,0,19,4,24,0,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,20-29,18,19,2,2,1,0,0,0,0,0,25,7,36,1,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,30-39,8,15,6,2,0,0,0,0,2,2,6,5,21,2,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,40-49,11,13,5,3,0,0,0,0,5,1,7,3,21,3,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,50-59,66,69,7,8,0,0,0,0,3,2,86,29,127,8,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,60-69,60,42,0,1,0,63,0,0,0,0,38,0,88,14,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,70-79,93,81,0,0,0,0,147,0,0,0,27,0,139,35,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,80-89,122,169,0,0,0,0,0,240,0,0,51,0,147,144,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste
+2021-04-21,Pfizer/BioNTech,VDA,90+,5,8,0,0,0,0,0,13,0,0,0,0,5,8,ITC,ITC2,2,Valle d'Aosta / Vallée d'Aoste

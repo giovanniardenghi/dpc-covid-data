@@ -1,0 +1,25 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,PIE,16-19,3,2,0,0,0,0,0,0,0,0,5,0,5,0,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,20-29,10,14,0,3,0,0,0,0,0,0,20,1,24,0,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,30-39,10,17,1,1,0,0,0,0,0,1,24,0,26,1,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,40-49,28,40,2,0,0,0,0,0,0,4,62,0,64,4,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,50-59,51,48,4,1,0,0,0,0,0,0,94,0,99,0,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,60-69,151,142,1,2,0,102,0,0,0,1,187,0,292,1,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,70-79,272,219,0,0,2,0,9,0,0,0,480,0,488,3,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,80-89,88,150,1,0,1,0,0,235,0,0,1,0,67,171,ITC,ITC1,1,Piemonte
+2021-04-21,Moderna,PIE,90+,21,74,0,0,3,0,0,92,0,0,0,0,45,50,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,16-19,26,17,2,1,0,0,0,0,0,0,40,0,38,5,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,20-29,172,224,86,42,5,0,0,0,0,4,258,1,324,72,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,30-39,240,324,165,53,16,0,0,0,3,7,318,2,432,132,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,40-49,447,571,159,66,32,0,0,0,3,4,750,4,858,160,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,50-59,859,898,168,72,31,0,0,0,4,11,1463,8,1541,216,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,60-69,1542,1446,115,43,16,342,0,0,0,10,2462,0,2804,184,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,70-79,1739,1649,42,9,18,0,722,0,0,0,2597,0,3240,148,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,80-89,2188,2945,2,0,21,0,0,5015,0,0,95,0,1549,3584,ITC,ITC1,1,Piemonte
+2021-04-21,Pfizer/BioNTech,PIE,90+,180,427,4,0,18,0,0,556,0,0,29,0,237,370,ITC,ITC1,1,Piemonte
+2021-04-21,Vaxzevria (AstraZeneca),PIE,30-39,1,1,0,0,0,0,0,0,0,0,2,0,2,0,ITC,ITC1,1,Piemonte
+2021-04-21,Vaxzevria (AstraZeneca),PIE,40-49,4,1,0,2,0,0,0,0,1,0,1,1,4,1,ITC,ITC1,1,Piemonte
+2021-04-21,Vaxzevria (AstraZeneca),PIE,50-59,2,4,0,1,0,0,0,0,0,2,3,0,6,0,ITC,ITC1,1,Piemonte
+2021-04-21,Vaxzevria (AstraZeneca),PIE,60-69,466,563,0,0,0,891,0,0,0,0,138,0,1028,1,ITC,ITC1,1,Piemonte
+2021-04-21,Vaxzevria (AstraZeneca),PIE,70-79,2729,3393,0,0,0,0,5994,0,0,1,127,0,6121,1,ITC,ITC1,1,Piemonte
+2021-04-21,Vaxzevria (AstraZeneca),PIE,80-89,0,2,0,0,0,0,0,2,0,0,0,0,2,0,ITC,ITC1,1,Piemonte

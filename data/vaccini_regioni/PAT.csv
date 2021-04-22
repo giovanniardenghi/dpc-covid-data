@@ -1,0 +1,21 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,PAT,20-29,1,0,0,0,0,0,0,0,0,0,1,0,1,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Moderna,PAT,30-39,0,1,0,0,0,0,0,0,0,0,1,0,1,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Moderna,PAT,40-49,1,0,0,0,0,0,0,0,0,0,1,0,1,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Moderna,PAT,50-59,5,0,0,0,0,0,0,0,0,0,5,0,5,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Moderna,PAT,60-69,40,27,0,0,0,53,0,0,0,0,14,0,67,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Moderna,PAT,70-79,15,20,0,0,0,0,24,0,0,0,11,0,35,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Moderna,PAT,80-89,10,13,0,0,0,0,0,22,0,0,1,0,23,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Moderna,PAT,90+,1,9,0,0,0,0,0,10,0,0,0,0,10,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,16-19,4,2,0,0,0,0,0,0,0,0,6,0,5,1,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,20-29,21,13,4,1,0,0,0,0,0,0,29,0,32,2,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,30-39,10,10,5,0,0,0,0,0,0,0,15,0,20,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,40-49,23,45,12,1,0,0,0,0,0,0,53,2,67,1,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,50-59,53,67,8,5,1,0,0,0,0,0,103,3,120,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,60-69,391,444,4,0,0,650,0,0,0,1,180,0,830,5,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,70-79,394,420,0,0,0,0,712,0,0,0,100,2,804,10,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,80-89,47,69,0,0,0,0,0,111,0,0,5,0,100,16,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Pfizer/BioNTech,PAT,90+,8,9,0,0,0,0,0,16,0,0,1,0,15,2,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Vaxzevria (AstraZeneca),PAT,40-49,0,1,0,1,0,0,0,0,0,0,0,0,1,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Vaxzevria (AstraZeneca),PAT,60-69,130,154,0,0,0,282,0,0,0,0,2,0,284,0,ITH,ITH2,4,Provincia Autonoma Trento
+2021-04-21,Vaxzevria (AstraZeneca),PAT,70-79,67,77,0,0,0,0,143,0,0,0,1,0,142,2,ITH,ITH2,4,Provincia Autonoma Trento

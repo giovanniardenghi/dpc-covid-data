@@ -1,0 +1,27 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,LOM,16-19,5,4,0,0,2,0,0,0,0,0,7,0,4,5,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,20-29,24,37,4,3,3,0,0,0,0,2,49,0,36,25,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,30-39,42,45,4,0,1,0,0,0,0,2,76,4,54,33,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,40-49,77,108,15,1,4,0,0,0,1,5,157,2,129,56,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,50-59,167,176,16,2,15,0,0,0,6,7,289,8,236,107,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,60-69,199,240,8,2,9,82,0,0,1,4,333,0,332,107,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,70-79,320,331,3,3,6,0,380,0,1,0,258,0,531,120,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,80-89,398,648,0,3,14,0,0,937,3,0,89,0,390,656,ITC,ITC4,3,Lombardia
+2021-04-21,Moderna,LOM,90+,105,391,0,2,7,0,0,458,1,0,28,0,392,104,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,16-19,92,83,4,1,11,0,0,0,0,0,154,5,156,19,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,20-29,418,410,137,41,36,0,0,0,6,22,557,29,717,111,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,30-39,480,571,195,54,35,0,0,0,10,55,651,51,888,163,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,40-49,752,924,208,71,69,0,0,0,13,73,1134,108,1446,230,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,50-59,1218,1369,255,102,51,0,0,0,25,88,1911,155,2237,350,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,60-69,2656,2720,103,47,37,3130,0,0,16,50,1978,15,5074,302,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,70-79,5399,5534,23,23,59,0,9078,0,22,8,1711,9,10597,336,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,80-89,4583,6195,4,90,130,0,0,10355,8,5,186,0,1061,9717,ITC,ITC4,3,Lombardia
+2021-04-21,Pfizer/BioNTech,LOM,90+,215,617,1,0,74,0,0,728,1,0,28,0,222,610,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,20-29,2,4,1,0,0,0,0,0,0,0,4,1,6,0,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,30-39,5,4,0,0,0,0,0,0,0,0,6,3,9,0,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,40-49,15,11,0,2,0,0,0,0,0,0,22,2,26,0,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,50-59,36,35,3,3,0,0,0,0,0,1,47,17,71,0,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,60-69,3485,4082,12,3,1,7271,0,0,18,1,259,2,7567,0,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,70-79,10450,12637,6,1,2,0,22872,0,45,0,157,4,23086,1,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,80-89,128,160,0,0,0,0,0,282,1,0,4,1,288,0,ITC,ITC4,3,Lombardia
+2021-04-21,Vaxzevria (AstraZeneca),LOM,90+,10,21,0,0,0,0,0,29,0,0,2,0,31,0,ITC,ITC4,3,Lombardia

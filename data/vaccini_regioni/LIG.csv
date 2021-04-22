@@ -1,0 +1,23 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,LIG,16-19,1,0,0,0,0,0,0,0,0,0,1,0,1,0,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,20-29,11,10,11,7,0,0,0,0,0,0,2,1,21,0,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,30-39,13,15,12,10,0,0,0,0,0,0,6,0,25,3,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,40-49,9,25,7,7,0,0,0,0,0,0,11,9,29,5,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,50-59,32,31,10,9,0,0,0,0,0,0,33,11,52,11,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,60-69,35,38,2,7,1,29,0,0,1,0,33,0,55,18,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,70-79,171,171,0,6,3,0,290,0,0,0,43,0,331,11,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,80-89,60,58,0,1,7,0,0,100,0,0,10,0,29,89,ITC,ITC3,7,Liguria
+2021-04-21,Moderna,LIG,90+,13,31,0,0,6,0,0,27,0,0,11,0,26,18,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,16-19,6,6,3,0,0,0,0,0,0,0,9,0,8,4,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,20-29,67,89,62,9,5,0,0,0,3,17,52,8,66,90,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,30-39,73,119,69,13,6,0,0,0,10,27,57,10,58,134,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,40-49,133,178,50,19,10,0,0,0,17,47,147,21,101,210,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,50-59,225,306,76,31,5,0,0,0,19,62,286,52,197,334,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,60-69,385,373,38,17,3,221,0,0,8,32,438,1,313,445,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,70-79,1055,1152,8,2,0,0,1814,0,1,0,376,6,1276,931,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,80-89,900,1235,0,1,0,0,0,2104,0,0,23,7,887,1248,ITC,ITC3,7,Liguria
+2021-04-21,Pfizer/BioNTech,LIG,90+,88,196,0,0,0,0,0,282,0,0,0,2,120,164,ITC,ITC3,7,Liguria
+2021-04-21,Vaxzevria (AstraZeneca),LIG,30-39,0,1,1,0,0,0,0,0,0,0,0,0,1,0,ITC,ITC3,7,Liguria
+2021-04-21,Vaxzevria (AstraZeneca),LIG,50-59,1,0,0,0,0,0,0,0,0,0,0,1,1,0,ITC,ITC3,7,Liguria
+2021-04-21,Vaxzevria (AstraZeneca),LIG,60-69,685,777,0,0,0,1284,0,0,0,4,173,1,1462,0,ITC,ITC3,7,Liguria
+2021-04-21,Vaxzevria (AstraZeneca),LIG,70-79,227,245,0,0,0,0,441,0,0,1,28,2,471,1,ITC,ITC3,7,Liguria

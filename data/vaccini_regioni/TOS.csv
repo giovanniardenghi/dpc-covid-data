@@ -1,0 +1,28 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,TOS,16-19,5,5,0,0,0,0,0,0,0,0,10,0,1,9,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,20-29,45,34,0,0,0,0,0,0,0,0,79,0,35,44,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,30-39,43,53,2,1,0,0,0,0,0,0,93,0,35,61,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,40-49,80,82,2,1,0,0,0,0,0,0,159,0,59,103,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,50-59,132,132,1,5,0,0,0,0,0,0,257,1,117,147,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,60-69,179,167,0,0,0,0,0,0,0,0,346,0,169,177,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,70-79,213,186,0,3,1,0,3,0,0,0,392,0,202,197,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,80-89,38,26,1,0,0,0,0,0,0,0,63,0,19,45,ITI,ITI1,9,Toscana
+2021-04-21,Moderna,TOS,90+,0,2,0,0,0,0,0,0,0,0,2,0,0,2,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,16-19,15,7,2,3,0,0,0,0,0,0,12,5,20,2,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,20-29,57,57,37,45,0,0,0,0,1,0,26,5,99,15,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,30-39,56,73,40,26,0,0,0,0,0,0,52,11,112,17,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,40-49,105,110,60,33,2,0,0,0,0,1,96,23,185,30,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,50-59,160,220,88,52,4,0,0,0,1,0,193,42,315,65,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,60-69,297,258,52,13,3,88,0,0,1,1,397,0,490,65,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,70-79,4049,4771,2,8,14,0,6952,0,3,0,1841,0,8715,105,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,80-89,5138,7207,1,1,24,0,0,12145,8,0,163,3,4200,8145,ITI,ITI1,9,Toscana
+2021-04-21,Pfizer/BioNTech,TOS,90+,362,1035,0,0,15,0,0,1371,1,0,8,2,512,885,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,16-19,1,0,0,1,0,0,0,0,0,0,0,0,1,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,20-29,1,0,0,1,0,0,0,0,0,0,0,0,1,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,30-39,1,1,0,2,0,0,0,0,0,0,0,0,2,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,40-49,1,0,0,1,0,0,0,0,0,0,0,0,1,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,50-59,2,0,0,2,0,0,0,0,0,0,0,0,2,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,60-69,35,21,0,56,0,0,0,0,0,0,0,0,56,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,70-79,69,48,0,22,0,0,95,0,0,0,0,0,117,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,80-89,6,8,0,0,0,0,0,14,0,0,0,0,14,0,ITI,ITI1,9,Toscana
+2021-04-21,Vaxzevria (AstraZeneca),TOS,90+,1,0,0,0,0,0,0,1,0,0,0,0,1,0,ITI,ITI1,9,Toscana

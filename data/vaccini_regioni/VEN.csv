@@ -1,0 +1,26 @@
+data_somministrazione,fornitore,area,fascia_anagrafica,sesso_maschile,sesso_femminile,categoria_operatori_sanitari_sociosanitari,categoria_personale_non_sanitario,categoria_ospiti_rsa,categoria_60_69,categoria_70_79,categoria_over80,categoria_forze_armate,categoria_personale_scolastico,categoria_soggetti_fragili,categoria_altro,prima_dose,seconda_dose,codice_NUTS1,codice_NUTS2,codice_regione_ISTAT,nome_area
+2021-04-21,Moderna,VEN,20-29,5,11,8,1,0,0,0,0,1,0,3,3,8,8,ITH,ITH3,5,Veneto
+2021-04-21,Moderna,VEN,30-39,3,20,12,3,0,0,0,0,0,0,3,5,6,17,ITH,ITH3,5,Veneto
+2021-04-21,Moderna,VEN,40-49,12,42,27,8,0,0,0,0,0,1,10,8,21,33,ITH,ITH3,5,Veneto
+2021-04-21,Moderna,VEN,50-59,25,63,46,11,0,0,0,0,0,2,17,12,27,61,ITH,ITH3,5,Veneto
+2021-04-21,Moderna,VEN,60-69,57,45,11,2,1,42,0,0,0,0,46,0,72,30,ITH,ITH3,5,Veneto
+2021-04-21,Moderna,VEN,70-79,1326,1543,7,0,1,0,2646,0,0,1,214,0,2757,112,ITH,ITH3,5,Veneto
+2021-04-21,Moderna,VEN,80-89,299,539,1,0,4,0,0,769,0,0,64,0,439,399,ITH,ITH3,5,Veneto
+2021-04-21,Moderna,VEN,90+,101,375,0,1,16,0,0,386,0,0,73,0,390,86,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,16-19,19,23,1,1,3,0,0,0,0,0,30,7,19,23,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,20-29,148,240,132,22,22,0,0,0,1,5,144,62,108,280,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,30-39,193,331,184,37,23,0,0,0,0,17,183,80,159,365,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,40-49,306,442,187,40,17,0,0,0,4,16,345,139,241,507,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,50-59,545,624,203,85,26,0,0,0,7,50,566,232,375,794,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,60-69,816,802,83,43,15,536,0,0,2,22,913,4,511,1107,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,70-79,2261,2494,18,37,21,0,3314,0,0,0,1363,2,2992,1763,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,80-89,2832,4627,2,0,99,0,0,6969,0,1,378,10,1132,6327,ITH,ITH3,5,Veneto
+2021-04-21,Pfizer/BioNTech,VEN,90+,1464,3162,0,1,72,0,0,4143,0,0,405,5,802,3824,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,20-29,0,1,1,0,0,0,0,0,0,0,0,0,1,0,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,30-39,1,1,0,0,0,0,0,0,0,0,1,1,2,0,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,40-49,1,1,0,0,0,0,0,0,0,0,0,2,2,0,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,50-59,2,4,0,0,0,0,0,0,0,0,3,3,6,0,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,60-69,29,48,1,0,0,62,0,0,0,1,13,0,77,0,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,70-79,1885,2229,2,1,2,0,4029,0,0,0,80,0,4110,4,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,80-89,2,4,0,0,0,0,0,6,0,0,0,0,5,1,ITH,ITH3,5,Veneto
+2021-04-21,Vaxzevria (AstraZeneca),VEN,90+,0,2,0,0,0,0,0,2,0,0,0,0,2,0,ITH,ITH3,5,Veneto
