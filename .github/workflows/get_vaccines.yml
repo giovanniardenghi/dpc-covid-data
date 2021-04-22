@@ -41,7 +41,7 @@ jobs:
           echo "Checking data on: `date`"
           if [ -n "$(git status --porcelain)" ]; then
             echo "New update available"
-            tmp=$(tail -n32 data/vaccines.csv)
+            tmp=$(tail -n36 data/vaccines.csv)
             report_date=${tmp:0:10}
             git config --global user.name 'GitHub Actions'
             git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
