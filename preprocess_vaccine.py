@@ -1,19 +1,45 @@
 import pandas as pd
-import numpy as np
-
-data = pd.read_csv('https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/somministrazioni-vaccini-latest.csv')
+sigla_regioni = {
+    'ITA':'Italia',
+    'ABR':'Abruzzo',
+    'BAS':'Basilicata',
+    'CAL':'Calabria',
+    'CAM':'Campania',
+    'EMR':'Emilia-Romagna',
+    'FVG':'Friuli Venezia Giulia',
+    'LAZ':'Lazio',
+    'LIG':'Liguria',
+    'LOM':'Lombardia',
+    'MAR':'Marche',
+    'MOL':'Molise',
+    'PAB':'P.A. Bolzano',
+    'PAT':'P.A. Trento',
+    'PIE':'Piemonte',
+    'PUG':'Puglia',
+    'SAR':'Sardegna',
+    'SIC':'Sicilia',
+    'TOS':'Toscana',
+    'UMB':'Umbria',
+    'VDA':'Valle d\'Aosta',
+    'VEN':'Veneto'
+}
+data = pd.read_csv(
+    'https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/somministrazioni-vaccini-latest.csv')
 
 data['data_somministrazione'] = pd.to_datetime(data['data_somministrazione'])
 data_Italia = data.groupby('data_somministrazione').sum()
- 
-new_max = max(data_Italia.index) + pd.Timedelta(35,'days')
-new_index = pd.date_range('2020-02-24',new_max)
+max_Italia_index = max(data_Italia.index)
+new_max = max_Italia_index + pd.Timedelta(35, 'days')
+new_index = pd.date_range('2020-02-24', new_max)
 
-data_Italia = data_Italia.reindex(new_index,columns=['prima_dose','seconda_dose']).ffill()
+data_Italia.loc[max_Italia_index + pd.Timedelta(1, 'day')] = data_Italia.iloc[-7:, :].mean().round()
+data_Italia = data_Italia.reindex(new_index, columns=['prima_dose', 'seconda_dose']).ffill()
 
-regions = [x for _, x in data.groupby(['data_somministrazione','area'])]
-for x in regions:
-    data_reg = x.reindex(new_index,columns=['prima_dose','seconda_dose']).ffill()
-    x.to_csv('data/vaccini_regioni/'+x.area.values[0]+'.csv',index=None)
-    
-data_Italia.to_csv('data/vaccines.csv',index_label='data')
+regions = [(a,x) for a, x in data.groupby(['area'])]
+for a,x in regions:
+    x = x.groupby('data_somministrazione').sum()
+    x.loc[max_Italia_index + pd.Timedelta(1, 'day')] = x.iloc[-7:,:].mean().round()
+    data_reg = x.reindex(new_index, columns=['prima_dose', 'seconda_dose']).ffill()
+    data_reg.to_csv('data/vaccini_regioni/' + sigla_regioni[a] + '.csv', index_label='data')
+
+data_Italia.to_csv('data/vaccines.csv', index_label='data')
