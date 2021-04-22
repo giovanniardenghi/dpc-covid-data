@@ -43,3 +43,4 @@ for a,x in regions:
     data_reg.to_csv('data/vaccini_regioni/' + sigla_regioni[a] + '.csv', index_label='data')
 
 data_Italia.to_csv('data/vaccines.csv', index_label='data')
+data_Italia.to_csv('data/vaccini_regioni/Italia.csv', index_label='data')
