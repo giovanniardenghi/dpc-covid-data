@@ -2,7 +2,6 @@
 import pandas as pd
 import functools
 import numpy as np
-import plotly.express as px
 
 ## Define variables
 ignore_sex = True
@@ -62,6 +61,7 @@ stato_clinico.drop('Non noto', level=1, inplace=True)
 
 if ignore_sex:
     sesso_eta = sesso_eta.groupby(['Data',age_groups], level=[0,1]).sum()
+    sesso_eta['Nuovi_Deceduti'] = sesso_eta.groupby(['Età'])['Deceduti'].diff()
     stato_clinico = stato_clinico.groupby([state_group, 'Data', age_groups], level=[2, 0, 1]).sum()
     sesso_eta['Casi'] = sesso_eta['Casi'] - sesso_eta['Deceduti'] - stato_clinico.xs('Isolated', level='Stato').values.flatten() - stato_clinico.xs('Hospitalized', level='Stato').values.flatten() - stato_clinico.xs('Threatened', level='Stato').values.flatten()
 else:
@@ -72,9 +72,11 @@ sesso_eta_perc = sesso_eta / sesso_eta.groupby('Data').sum()
 stato_clinico_perc = stato_clinico / stato_clinico.groupby(['Stato','Data'],level=[0,1]).sum()
 
 tmp = pd.concat({'Extinct': sesso_eta_perc['Deceduti']}, names=['Stato']).to_frame(name='Casi')
+tmp3 = pd.concat({'Daily_extinct': sesso_eta_perc['Nuovi_Deceduti']}, names=['Stato']).to_frame(name='Casi')
 tmp2 = pd.concat({'Recovered': sesso_eta_perc['Casi']}, names=['Stato']).to_frame(name='Casi')
 stato_clinico_perc = stato_clinico_perc.append(tmp)
 stato_clinico_perc = stato_clinico_perc.append(tmp2)
+stato_clinico_perc = stato_clinico_perc.append(tmp3)
 
 
 stato_clinico_perc = stato_clinico_perc.reset_index().pivot(index=['Data','Età'],columns='Stato',values='Casi')
