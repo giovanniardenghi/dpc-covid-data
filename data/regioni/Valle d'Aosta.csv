@@ -505,3 +505,4 @@ data,stato,codice_regione,denominazione_regione,lat,long,ricoverati_con_sintomi,
 2021-07-11T17:00:00,ITA,2,Valle d'Aosta,45.73750286,7.320149366,0,0,0,22,22,2,2,11207,473,,,11702,143865,68073.0,,0.0,,,11024.0,678.0,101588.0,42277.0,ITC,ITC2
 2021-07-12T17:00:00,ITA,2,Valle d'Aosta,45.73750286,7.320149366,0,0,0,22,22,0,0,11207,473,,,11702,143981,68151.0,,0.0,,,11024.0,678.0,101616.0,42365.0,ITC,ITC2
 2021-07-13T17:00:00,ITA,2,Valle d'Aosta,45.73750286,7.320149366,0,0,0,19,19,-3,1,11210,474,,,11703,144342,68309.0,,0.0,,,11025.0,678.0,101764.0,42578.0,ITC,ITC2
+2021-07-14T17:00:00,ITA,2,Valle d'Aosta,45.73750286,7.320149366,0,0,0,19,19,0,0,11211,473,,,11703,144648,68439.0,"Si comunica che il report odierno riporta un decesso in meno rispetto a ieri, in quanto quel decesso trattavasi di caso doppio di competenza di altra Regione",0.0,,,11025.0,678.0,101846.0,42802.0,ITC,ITC2
