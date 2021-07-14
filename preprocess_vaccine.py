@@ -49,7 +49,7 @@ data_Italia = data_Italia.reindex(new_index, columns=['prima_dose', 'seconda_dos
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
 data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
 data_Italia.loc[data_Italia.prima_dose_tot > pops['ITA'], 'prima_dose'] = 0
-data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose'] = 0
+data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose'] = data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'prima_dose']
 data_Italia.drop(columns=['prima_dose_tot','seconda_dose_tot'],inplace=True)
 
 regions = [(a,x) for a, x in data.groupby(['area'])]
@@ -67,7 +67,7 @@ for a,x in regions:
     data_reg['prima_dose_tot'] = data_reg.prima_dose.cumsum()
     data_reg['seconda_dose_tot'] = data_reg.seconda_dose.cumsum()
     data_reg.loc[data_reg.prima_dose_tot > pops[a], 'prima_dose'] = 0
-    data_reg.loc[data_reg.seconda_dose_tot > data_reg.prima_dose_tot, 'seconda_dose'] = 0
+    data_reg.loc[data_reg.seconda_dose_tot > data_reg.prima_dose_tot, 'seconda_dose'] = data_reg.loc[data_reg.seconda_dose_tot > data_reg.prima_dose_tot, 'prima_dose'] 
     data_reg.drop(columns=['prima_dose_tot','seconda_dose_tot'],inplace=True)
 
     data_reg.to_csv('data/vaccini_regioni/' + sigla_regioni[a] + '.csv', index_label='data')
