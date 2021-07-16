@@ -507,3 +507,4 @@ data,stato,codice_regione,denominazione_regione,lat,long,ricoverati_con_sintomi,
 2021-07-13T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,28,1,29,903,932,-10,33,71751,2512,,,75195,1751751,706224.0,,0.0,,,75195.0,0.0,1216563.0,535188.0,ITF,ITF1
 2021-07-14T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,25,1,26,909,935,3,42,71790,2512,,,75237,1757225,707498.0,,0.0,,,75237.0,0.0,1220366.0,536859.0,ITF,ITF1
 2021-07-15T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,24,1,25,903,928,-7,50,71844,2513,,,75285,1761623,708658.0,Dal totale dei positivi sono stati eliminati due casi in quanto già segnalati da altra regione.,0.0,,,75285.0,0.0,1222832.0,538791.0,ITF,ITF1
+2021-07-16T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,25,1,26,898,924,-4,25,71871,2513,,,75308,1766547,710017.0,Dal totale dei positivi sono stati eliminati 2 casi in quanto già segnalati da altra regione.,0.0,,,75308.0,0.0,1225445.0,541102.0,ITF,ITF1
