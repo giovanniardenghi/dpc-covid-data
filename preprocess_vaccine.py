@@ -45,7 +45,7 @@ max_Italia_index = max(data_Italia.index)
 new_max = max_Italia_index + pd.Timedelta(100, 'days')
 new_index = pd.date_range('2020-02-24', new_max)
 
-data_Italia.loc[pd.to_datetime('2021-08-08'),['prima_dose','seconda_dose']] = 3e5
+#data_Italia.loc[pd.to_datetime('2021-08-08'),['prima_dose','seconda_dose']] = 3e5
 data_Italia.loc[max_Italia_index + pd.Timedelta(1, 'day')] = data_Italia.iloc[-7:, :].mean().round()
 data_Italia = data_Italia.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'pregressa_infezione', 'mono_dose']).ffill()
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
