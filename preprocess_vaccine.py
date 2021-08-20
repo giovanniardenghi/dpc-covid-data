@@ -45,21 +45,43 @@ max_Italia_index = max(data_Italia.index)
 new_max = max_Italia_index + pd.Timedelta(100, 'days')
 new_index = pd.date_range('2020-02-24', new_max)
 
-#data_Italia.loc[pd.to_datetime('2021-08-08'),['prima_dose','seconda_dose']] = 3e5
+today = str(pd.Timestamp.today()+pd.Timedelta(2, 'day'))[:10]
+print(today)
+
+data_Italia['prima_dose'] = data_Italia.prima_dose-data_Italia.mono_dose
+data_Italia['seconda_dose'] = data_Italia.seconda_dose+data_Italia.mono_dose+data_Italia.pregressa_infezione
+
+print(data_Italia)
+
+
+#data_Italia.loc[pd.to_datetime(today),['prima_dose','seconda_dose']] = 3e5
 data_Italia.loc[max_Italia_index + pd.Timedelta(1, 'day')] = data_Italia.iloc[-7:, :].mean().round()
 data_Italia = data_Italia.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'pregressa_infezione', 'mono_dose']).ffill()
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
 data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
-data_Italia.loc[data_Italia.prima_dose_tot > pops['ITA'], 'prima_dose'] = 0
-idx = np.argmax(data_Italia.prima_dose_tot > pops['ITA'])
-print(data_Italia.iloc[idx,1])
-data_Italia.iloc[idx,1] = pops['ITA'] - data_Italia.iloc[idx-1,-2]
-
-print(data_Italia.iloc[idx,1])
-print(np.argmin(data_Italia.prima_dose.values))
+data_Italia['mono_dose_tot'] = data_Italia.mono_dose.cumsum()
+data_Italia['pregressa_infezione_tot'] = data_Italia.pregressa_infezione.cumsum()
+if np.argmax(data_Italia.prima_dose_tot > pops['ITA']-data_Italia.iloc[:,6] - data_Italia.iloc[:,7]):
+    max_idx = np.argmax(data_Italia.prima_dose_tot > pops['ITA']-data_Italia.iloc[:,6] - data_Italia.iloc[:,7])
+    data_Italia.iloc[max_idx:, 0] = 0
+    data_Italia.iloc[max_idx:, 2] = 0
+    data_Italia.iloc[max_idx:, 3] = 0
+    data_Italia.iloc[max_idx, 0] = pops['ITA'] - data_Italia.iloc[max_idx-1,7] -data_Italia.iloc[max_idx-1,6] - data_Italia.iloc[max_idx-1,4]
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
-print(data_Italia.prima_dose_tot)
-data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose'] = data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'prima_dose']
+data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
+data_Italia['mono_dose_tot'] = data_Italia.mono_dose.cumsum()
+data_Italia['pregressa_infezione_tot'] = data_Italia.pregressa_infezione.cumsum()
+#data_Italia.loc[data_Italia.seconda_dose_tot > 0.95*data_Italia.prima_dose_tot, 'seconda_dose'] = data_Italia.loc[data_Italia.seconda_dose_tot > 0.95 * data_Italia.prima_dose_tot, 'prima_dose']
+#data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose'] = data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'prima_dose']
+
+for n,i in enumerate(data_Italia.index):
+    if data_Italia.seconda_dose_tot[i] - data_Italia.mono_dose_tot[i] - data_Italia.pregressa_infezione_tot[i] > data_Italia.prima_dose_tot[i]:
+        data_Italia.iloc[n, 1] = data_Italia.iloc[n-1,4] - data_Italia.iloc[n-1,5] + data_Italia.iloc[n-1,6] + data_Italia.iloc[n-1,7]
+        data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
+
+
+
+#data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose'] = data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'prima_dose_tot'] - data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose_tot'] 
 data_Italia.drop(columns=['prima_dose_tot','seconda_dose_tot'],inplace=True)
 
 regions = [(a,x) for a, x in data.groupby(['area'])]
