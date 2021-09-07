@@ -560,3 +560,4 @@ data,stato,codice_regione,denominazione_regione,lat,long,ricoverati_con_sintomi,
 2021-09-04T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,83,6,89,2104,2193,-16,85,74765,2532,,,79490,2063238,805014.0,Fra i positivi è stato ricompreso un caso dei giorni scorsi erroneamente eliminato,1.0,,,79490.0,0.0,1343465.0,719773.0,ITF,ITF1
 2021-09-05T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,83,5,88,2205,2293,100,101,74765,2533,,,79591,2073529,807748.0,,0.0,,,79591.0,0.0,1346284.0,727245.0,ITF,ITF1
 2021-09-06T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,83,4,87,2096,2183,-110,4,74874,2534,,,79591,2075329,808266.0,Dal totale dei positivi sono stati eliminati due casi in quanto duplicati e due casi in quanto già segnalati da altra regione,0.0,,,79591.0,0.0,1346777.0,728552.0,ITF,ITF1
+2021-09-07T17:00:00,ITA,13,Abruzzo,42.35122196,13.39843823,83,6,89,2075,2164,-19,70,74963,2534,,,79661,2082164,810059.0,,2.0,,,79661.0,0.0,1349015.0,733149.0,ITF,ITF1
