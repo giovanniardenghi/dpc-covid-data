@@ -54,7 +54,7 @@ data_Italia['seconda_dose'] = data_Italia.seconda_dose+data_Italia.mono_dose+dat
 print(data_Italia)
 
 
-#data_Italia.loc[pd.to_datetime(today),['prima_dose','seconda_dose']] = 3e5
+#data_Italia.loc[pd.to_datetime(today),['prima_dose','seconda_dose']] = 2e5
 data_Italia.loc[max_Italia_index + pd.Timedelta(1, 'day')] = data_Italia.iloc[-7:, :].mean().round()
 data_Italia = data_Italia.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'pregressa_infezione', 'mono_dose']).ffill()
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
@@ -82,7 +82,7 @@ for n,i in enumerate(data_Italia.index):
 
 
 #data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose'] = data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'prima_dose_tot'] - data_Italia.loc[data_Italia.seconda_dose_tot > data_Italia.prima_dose_tot, 'seconda_dose_tot'] 
-data_Italia.drop(columns=['prima_dose_tot','seconda_dose_tot'],inplace=True)
+#data_Italia.drop(columns=['prima_dose_tot','seconda_dose_tot'],inplace=True)
 
 regions = [(a,x) for a, x in data.groupby(['area'])]
 for a,x in regions:
