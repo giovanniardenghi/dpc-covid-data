@@ -61,12 +61,12 @@ data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
 data_Italia['terza_dose_tot'] = data_Italia.terza_dose.cumsum()
 data_Italia['mono_dose_tot'] = data_Italia.mono_dose.cumsum()
 data_Italia['pregressa_infezione_tot'] = data_Italia.pregressa_infezione.cumsum()
-if np.argmax(data_Italia.prima_dose_tot > pops['ITA']-data_Italia.iloc[:,6] - data_Italia.iloc[:,7]):
-    max_idx = np.argmax(data_Italia.prima_dose_tot > pops['ITA']-data_Italia.iloc[:,6] - data_Italia.iloc[:,7])
+if np.argmax(data_Italia.prima_dose_tot > pops['ITA']-data_Italia.iloc[:,-2] - data_Italia.iloc[:,-1]):
+    max_idx = np.argmax(data_Italia.prima_dose_tot > pops['ITA']-data_Italia.iloc[:,-2] - data_Italia.iloc[:,-1])
     data_Italia.iloc[max_idx:, 0] = 0
-    data_Italia.iloc[max_idx:, 2] = 0
     data_Italia.iloc[max_idx:, 3] = 0
-    data_Italia.iloc[max_idx, 0] = pops['ITA'] - data_Italia.iloc[max_idx-1,7] -data_Italia.iloc[max_idx-1,6] - data_Italia.iloc[max_idx-1,4]
+    data_Italia.iloc[max_idx:, 4] = 0
+    data_Italia.iloc[max_idx, 0] = pops['ITA'] - data_Italia.iloc[max_idx-1,-1] -data_Italia.iloc[max_idx-1,-2] - data_Italia.iloc[max_idx-1,5]
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
 data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
 data_Italia['mono_dose_tot'] = data_Italia.mono_dose.cumsum()
@@ -76,7 +76,7 @@ data_Italia['pregressa_infezione_tot'] = data_Italia.pregressa_infezione.cumsum(
 
 for n,i in enumerate(data_Italia.index):
     if data_Italia.seconda_dose_tot[i] - data_Italia.mono_dose_tot[i] - data_Italia.pregressa_infezione_tot[i] > data_Italia.prima_dose_tot[i]:
-        data_Italia.iloc[n, 1] = data_Italia.iloc[n-1,4] - data_Italia.iloc[n-1,5] + data_Italia.iloc[n-1,6] + data_Italia.iloc[n-1,7]
+        data_Italia.iloc[n, 1] = data_Italia.iloc[n-1,5] - data_Italia.iloc[n-1,6] + data_Italia.iloc[n-1,-2] + data_Italia.iloc[n-1,-1]
         data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
 
 
