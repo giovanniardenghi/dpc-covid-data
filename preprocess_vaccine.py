@@ -33,6 +33,7 @@ data = pd.read_csv(
     'https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/somministrazioni-vaccini-latest.csv')
 
 data['data_somministrazione'] = pd.to_datetime(data['data_somministrazione'])
+#data = data[data['data_somministrazione']<='2021-03-25']
 monodose = data[data['fornitore']=='Janssen']
 
 #data.drop(monodose.index, inplace=True)
@@ -46,14 +47,16 @@ new_max = max_Italia_index + pd.Timedelta(100, 'days')
 new_index = pd.date_range('2020-02-24', new_max)
 
 today = str(pd.Timestamp.today()+pd.Timedelta(2, 'day'))[:10]
+#today = '2021-03-26'
 print(today)
 
 data_Italia['prima_dose'] = data_Italia.prima_dose-data_Italia.mono_dose
 data_Italia['seconda_dose'] = data_Italia.seconda_dose+data_Italia.mono_dose+data_Italia.pregressa_infezione
-data_Italia['terza_dose'] = data_Italia.dose_aggiuntiva + data_Italia.dose_booster
+data_Italia['terza_dose'] = data_Italia.dose_addizionale_booster
 
 print(data_Italia.terza_dose)
-#data_Italia.loc[pd.to_datetime(today),['prima_dose','seconda_dose']] = 2e5
+#data_Italia.loc[pd.to_datetime(today),['prima_dose','seconda_dose']] = 3e5
+#data_Italia.loc[pd.to_datetime(today),['terza_dose']] = 4e5
 data_Italia.loc[max_Italia_index + pd.Timedelta(1, 'day')] = data_Italia.iloc[-7:, :].mean().round()
 data_Italia = data_Italia.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'terza_dose', 'pregressa_infezione', 'mono_dose']).ffill()
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
@@ -93,7 +96,7 @@ for a,x in regions:
     monodose = monodose.groupby('data_somministrazione').sum()
     x = x.groupby('data_somministrazione').sum()
     x['mono_dose'] = monodose['prima_dose']
-    x['terza_dose'] = x.dose_aggiuntiva + x.dose_booster
+    x['terza_dose'] = x.dose_addizionale_booster
     x.fillna(0,inplace=True)
     #x.loc[pd.to_datetime('2021-08-01'),['prima_dose','seconda_dose']] = 3e5
     x.loc[max_Italia_index + pd.Timedelta(1, 'day')] = x.iloc[-7:,:].mean().round()
