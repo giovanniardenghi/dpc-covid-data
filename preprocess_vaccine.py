@@ -100,7 +100,7 @@ for a,x in regions:
     x.fillna(0,inplace=True)
     #x.loc[pd.to_datetime('2021-08-01'),['prima_dose','seconda_dose']] = 3e5
     x.loc[max_Italia_index + pd.Timedelta(1, 'day')] = x.iloc[-7:,:].mean().round()
-    data_reg = x.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'pregressa_infezione', 'mono_dose']).ffill()
+    data_reg = x.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'terza_dose', 'pregressa_infezione', 'mono_dose']).ffill()
     data_reg['prima_dose_tot'] = data_reg.prima_dose.cumsum()
     data_reg['seconda_dose_tot'] = data_reg.seconda_dose.cumsum()
     data_reg.loc[data_reg.prima_dose_tot > pops[a], 'prima_dose'] = 0
