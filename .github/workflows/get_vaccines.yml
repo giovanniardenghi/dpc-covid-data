@@ -34,6 +34,7 @@ jobs:
       - name: Preprocess data
         run: |
           python preprocess_vaccine.py
+          python preprocess_vaccine_age.py
           
       # Commit & Push
       - name: Commit a new report (if necessary)
