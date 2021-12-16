@@ -33,6 +33,7 @@ jobs:
       - name: Preprocess data
         run: |
           python iss_data_series.py
+          python iss_data_series_all_ages.py
           
       # Commit & Push
       - name: Commit a new report (if necessary)
