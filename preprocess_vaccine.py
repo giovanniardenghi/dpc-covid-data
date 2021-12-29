@@ -57,7 +57,7 @@ data_Italia['terza_dose'] = data_Italia.dose_addizionale_booster
 print(data_Italia.terza_dose)
 #data_Italia.loc[pd.to_datetime(today),['prima_dose','seconda_dose']] = 3e5
 #data_Italia.loc[pd.to_datetime(today),['terza_dose']] = 4e5
-data_Italia.loc[max_Italia_index + pd.Timedelta(1, 'day')] = data_Italia.iloc[-7:, :].mean().round()
+data_Italia.loc[max_Italia_index + pd.Timedelta(1, 'day')] = data_Italia.iloc[-30:, :].mean().round()
 data_Italia = data_Italia.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'terza_dose', 'pregressa_infezione', 'mono_dose']).ffill()
 data_Italia['prima_dose_tot'] = data_Italia.prima_dose.cumsum()
 data_Italia['seconda_dose_tot'] = data_Italia.seconda_dose.cumsum()
@@ -101,7 +101,7 @@ for a,x in regions:
     #x.loc[pd.to_datetime('2021-08-01'),['prima_dose','seconda_dose']] = 3e5
     #if a=='LOM':
     #    x.loc[pd.to_datetime(today),['terza_dose']] = 7.5e4 
-    x.loc[max_Italia_index + pd.Timedelta(1, 'day')] = x.iloc[-7:,:].mean().round()
+    x.loc[max_Italia_index + pd.Timedelta(1, 'day')] = x.iloc[-30:,:].mean().round()
     data_reg = x.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'terza_dose', 'pregressa_infezione', 'mono_dose']).ffill()
     data_reg['prima_dose_tot'] = data_reg.prima_dose.cumsum()
     data_reg['seconda_dose_tot'] = data_reg.seconda_dose.cumsum()
