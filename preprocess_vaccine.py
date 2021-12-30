@@ -105,6 +105,7 @@ for a,x in regions:
     data_reg = x.reindex(new_index, columns=['prima_dose', 'seconda_dose', 'terza_dose', 'pregressa_infezione', 'mono_dose']).ffill()
     data_reg['prima_dose_tot'] = data_reg.prima_dose.cumsum()
     data_reg['seconda_dose_tot'] = data_reg.seconda_dose.cumsum()
+    data_reg['terza_dose_tot'] = data_reg.terza_dose.cumsum()
     data_reg.loc[data_reg.prima_dose_tot > pops[a], 'prima_dose'] = 0
     data_reg['prima_dose_tot'] = data_reg.prima_dose.cumsum()
     data_reg.loc[data_reg.seconda_dose_tot > data_reg.prima_dose_tot, 'seconda_dose'] = 0
