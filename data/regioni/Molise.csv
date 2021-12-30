@@ -674,3 +674,4 @@ data,stato,codice_regione,denominazione_regione,lat,long,ricoverati_con_sintomi,
 2021-12-27T17:00:00,ITA,14,Molise,41.55774754,14.65916051,17,2,19,511,530,-3,9,14812,509,,,15851,314203,279923.0,,0.0,,casi confermati da test antigenico è a zero in quanto confermiamo tutti i casi positivi al test antigenico con test molecolare,15851.0,0.0,301173.0,13030.0,ITF,ITF2
 2021-12-28T17:00:00,ITA,14,Molise,41.55774754,14.65916051,18,2,20,530,550,20,24,14816,509,,,15875,314561,280276.0,,0.0,,casi confermati da test antigenico vale zero in quanto confermiamo tutti i testi antigenici positivi con test molecolari,15875.0,0.0,301531.0,13030.0,ITF,ITF2
 2021-12-29T17:00:00,ITA,14,Molise,41.55774754,14.65916051,20,1,21,675,696,146,159,14826,512,,,16034,315646,281345.0,,1.0,,,16034.0,0.0,302616.0,13030.0,ITF,ITF2
+2021-12-30T17:00:00,ITA,14,Molise,41.55774754,14.65916051,20,1,21,878,899,203,211,14834,512,,,16245,317081,282767.0,,0.0,,,16245.0,0.0,304051.0,13030.0,ITF,ITF2
