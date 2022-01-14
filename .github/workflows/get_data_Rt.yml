@@ -1,0 +1,52 @@
+name: get_data_from_iss
+
+# Schedule the run
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '* */24 * * *'
+
+jobs:
+  # Set the job key.
+  scrape-data:
+    # Name of the Job
+    name: Scrape data
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Check out a copy of this repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Get data
+      - name: Get data
+        run: ./get_data_Rt.sh
+        
+      # Setup R
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: '4.0.3' # The R version to download (if necessary) and use.
+      - run: Rscript -e 'install.packages("EpiEstim")'
+      
+      # Compute Rt
+      - name: Compute Rt
+        run: Rscript calcoloRt_EpiEstim.R
+      
+      # Commit & Push
+      - name: Commit a new report (if necessary)
+        run: |
+          echo "Checking data on: `date`"
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "New update available"
+            git config --global user.name 'GitHub Actions'
+            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add .
+            git commit -am "Add new report"
+            git push
+          else
+            echo "no changes to commit"
+          fi
+        env:
+          TZ: Europe/Rome
