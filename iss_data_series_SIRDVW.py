@@ -77,11 +77,14 @@ stato_clinico = stato_clinico.append(tmp_infected)
 stato_clinico_perc = stato_clinico / stato_clinico.groupby(['Stato','Data'],level=[0,1]).sum()
 
 tmp = pd.concat({'Deceased': sesso_eta_perc['Deceduti']}, names=['Stato']).to_frame(name='Casi')
+tmp2 = pd.concat({'Recovered': sesso_eta_perc['Casi']}, names=['Stato']).to_frame(name='Casi')
 stato_clinico.reindex(columns=['Deceased'])
+
 stato_clinico_perc = stato_clinico_perc.append(tmp)
+stato_clinico_perc = stato_clinico_perc.append(tmp2)
 
 stato_clinico_perc = stato_clinico_perc.reset_index().pivot(index=['Data','Età'],columns='Stato',values='Casi')
-stato_clinico_perc = stato_clinico_perc.reindex(columns=['Infected', 'Deceased'])
+stato_clinico_perc = stato_clinico_perc.reindex(columns=['Infected', 'Deceased', 'Recovered'])
 new_index = pd.MultiIndex.from_product([pd.date_range(stato_clinico_perc.reset_index()['Data'].min(),stato_clinico_perc.reset_index()['Data'].max()),
                                         ['0-19','20-39','40-59','60-79','80-89','90+']], names=['Data','Età'] )
 stato_clinico_perc = stato_clinico_perc.reindex(new_index)

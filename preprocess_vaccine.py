@@ -42,8 +42,9 @@ data_Italia = data.groupby('data_somministrazione').sum()
 data_Italia['mono_dose'] = monodose['prima_dose']
 data_Italia.fillna(0,inplace=True)
 
+n_days_extrapolation = 400
 max_Italia_index = max(data_Italia.index)
-new_max = max_Italia_index + pd.Timedelta(100, 'days')
+new_max = max_Italia_index + pd.Timedelta(n_days_extrapolation, 'days')
 new_index = pd.date_range('2020-02-24', new_max)
 
 today = str(pd.Timestamp.today()+pd.Timedelta(2, 'day'))[:10]
