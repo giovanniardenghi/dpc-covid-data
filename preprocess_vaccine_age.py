@@ -32,6 +32,23 @@ pops['ITA'] = pops.sum()
 data = pd.read_csv(
     'https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/somministrazioni-vaccini-latest.csv')
 
+data=data.rename(columns={"data": "data_somministrazione",
+                           "forn":  "fornitore",
+                           "area":  "area",
+                           "eta":   "fascia_anagrafica",
+                           "m":     "sesso_maschile",
+                           "f":     "sesso_femminile",
+                           "d1":    "prima_dose",
+                           "d2":    "seconda_dose",
+                           "dpi":   "pregressa_infezione",
+                           "db1":   "dose_addizionale_booster",
+                           "dbi":   "booster_immuno",
+                           "db2":   "d2_booster",
+                           "N1":    "codice_NUTS1",
+                           "N2":    "codice_NUTS2",
+                           "ISTAT": "codice_regione_ISTAT",
+                           "reg":   "nome_area"
+    })
 data['data_somministrazione'] = pd.to_datetime(data['data_somministrazione'])
 #data = data[data['data_somministrazione']<='2021-03-25']
 monodose = data[data['fornitore']=='Janssen']
